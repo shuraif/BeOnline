@@ -8,4 +8,4 @@ This will be helpfull when you are not the admin of the system and you were not 
 2. Import the project in STS/Eclipse or whatever IDE you prefer.
 3. Run maven build.
 4. Run the project.
-5. Your mouse pinter will start moving automatically. Press any key in the keyboard to stop the process. 
+5. Your mouse pointer will start moving automatically. Press any key in the keyboard to stop the process. 
