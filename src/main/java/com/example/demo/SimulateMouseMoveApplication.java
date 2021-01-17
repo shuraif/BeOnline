@@ -8,13 +8,14 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 public class SimulateMouseMoveApplication extends JFrame implements KeyListener {
+	String caption="press any key to stop mouse move!"; 
 
 	JLabel label;
 	boolean bool=true;
 	public SimulateMouseMoveApplication(String s) throws AWTException, InterruptedException {
 		super(s);
 		JPanel p = new JPanel();
-		label = new JLabel("press any key to stop mouse move!");
+		label = new JLabel(caption);
 		p.add(label);
 		add(p);
 		addKeyListener(this);
@@ -57,6 +58,6 @@ public class SimulateMouseMoveApplication extends JFrame implements KeyListener 
 	}
 
 	public static void main(String[] args) throws AWTException, InterruptedException  {
-		new SimulateMouseMoveApplication("Key Listener Tester");
+		new SimulateMouseMoveApplication("Mouse Move Simulator");
 	}
 }
