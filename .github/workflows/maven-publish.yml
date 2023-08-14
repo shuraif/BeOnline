@@ -50,4 +50,5 @@ jobs:
           asset_path: ./target/SimulateMouseMove-0.0.1-SNAPSHOT.jar
           asset_name: BeOnline.jar
           asset_content_type: application/java-archive
+          
 
