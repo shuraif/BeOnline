@@ -49,5 +49,5 @@ jobs:
         run: |
           ls -a
           echo "removing zip and tar"
-          rm -f ./target/*.zip
-          rm -f ./target/*.tar.gz
+          shopt -s extglob  # Enable extended globbing
+          rm -f ./target/!(*.jar)  # Remove all files except JAR
