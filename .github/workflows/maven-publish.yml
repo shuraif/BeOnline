@@ -47,5 +47,7 @@ jobs:
       - name: Exclude Source Code Archives
         if: success()
         run: |
+          ls -a
+          echo "removing zip and tar"
           rm -f ./target/*.zip
           rm -f ./target/*.tar.gz
