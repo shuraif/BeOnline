@@ -32,12 +32,12 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
           name: SimulateMouseMove-0.0.1-SNAPSHOT.jar
-          path: BeOnline/target
+          path: target
           
     - name: Upload JAR as Release Asset
       uses: softprops/action-gh-release@v1
       with:
-          files: BeOnline/target/SimulateMouseMove-0.0.1-SNAPSHOT.jar
+          files: target/SimulateMouseMove-0.0.1-SNAPSHOT.jar
           tag_name: v1.0  # Specify a version number for the release
         
         
