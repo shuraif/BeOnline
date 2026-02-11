@@ -5,7 +5,6 @@ This will be helpfull when you are not the admin of the system and you were not 
 # How to use
 
 1. Clone the project
-2. Import the project in STS/Eclipse or whatever IDE you prefer.
-3. Run maven build.
-4. Run the project.
-5. Your mouse pointer will start moving automatically. Press any key in the keyboard to stop the process. 
+2. Compile the class using javac 
+3. Run the compiled code.
+4. You will see a popup with the details to follow. 
